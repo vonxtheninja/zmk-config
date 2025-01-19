@@ -14,10 +14,10 @@ keymap {
     compatible = "zmk,keymap";
     default_layer {
         bindings = <
-            &kp ESC   &kp Z &kp L &kp W        &kp K &kp J      &kp Q     &kp P &kp U        &kp O    &kp COMMA &kp DEL
-            &kp TAB   &kp A &kp R &mt LSHIFT S &kp T &kp V      &kp F     &kp N &mt LSHIFT E &kp A    &kp I     &kp RET
-            &kp LCTRL &kp Y &kp X &kp G        &kp D &kp M      &kp B     &kp H &kp SEMI     &kp APOS &kp DOT   &kp RGUI
-                                  &kp LALT     &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp CAPS
+            &kp ESC   &kp Z &kp L &kp W    &kp K &kp J      &kp Q     &kp P &kp U        &kp O    &kp COMMA &kp DEL
+            &kp TAB   &kp A &kp R &mt LSHIFT S    &kp T &kp V      &kp F     &kp N &mt LSHIFT E &kp A    &kp I     &kp RET
+            &kp LCTRL &kp Y &kp X &kp G    &kp D &kp M      &kp B     &kp H &kp SEMI     &kp APOS &kp DOT   &kp RGUI
+                                  &kp LALT &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp LSHFT
         >;
     };
     lower_layer {
@@ -33,7 +33,7 @@ keymap {
             &kp ESC   &kp CARET &kp N7   &kp N8 &kp N9     &kp PLUS    &kp INS   &kp F7 &kp F8 &kp F9 &kp F12 &kp DEL
             &kp TAB   &kp N0    &kp N4   &kp N5 &kp N6     &kp EQUAL   &kp HOME  &kp F4 &kp F5 &kp F6 &kp F11 &kp RET
             &kp LCTRL &kp PRCNT &kp N1   &kp N2 &kp N3     &kp MINUS   &kp END   &kp F1 &kp F2 &kp F3 &kp F10 &kp RGUI
-                                &kp LALT &trans &kp BSPC   &kp SPACE   &trans    &kp RALT
+                                &kp LALT &trans &kp BSPC   &kp SPACE   &trans    &kp CAPS
         >;
       };
    };
