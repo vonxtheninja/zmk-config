@@ -34,5 +34,6 @@ keymap {
             &kp LCTRL &kp PRCNT &kp N1   &kp N2 &kp N3     &kp MINUS   &kp END   &kp F1 &kp F2 &kp F3 &kp F10 &kp RGUI
                                 &kp LALT &trans &kp BSPC   &kp SPACE   &trans    &kp RALT
         >;
-    };
+      };
+   };
 };
