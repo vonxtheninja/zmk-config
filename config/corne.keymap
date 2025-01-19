@@ -10,8 +10,6 @@
 #define TAPPING_TERM_MS 400
 
 
-
-
         keymap {
                 compatible = "zmk,keymap";
 
@@ -19,14 +17,14 @@
                     label = "ALRN";
 // -----------------------------------------------------------------------------------------
 // | ESC  |  Z  |  L  |  W  |  K  |  J  |   |  K  |  P   |  U  |  O  |  .  | DEL  |
-// | TAB  |  A  |  R  |  S  |  T  |  V  |   |  F  |  N   |  E  |  I  |  O  |  RET |
+// | TAB  |  A  |  R  |  S  |  T  |  V  |   |  F  |  N   |  E  |  I  |  O  | RET  |
 // | LCTRL|  Y  |  X  |  G  |  D  |  D  |   |  B  |  H   |  ;  |  ,  |  .  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp ESC   &kp Z &kp L &kp W        &kp K &kp J      &kp Y     &kp U  &kp I        &kp O     &kp P   &kp DEL
-   &kp TAB   &kp A &kp R &mt LSHIFT S &kp T &kp V      &kp F     &kp N  &mt LSHIFT E &kp A     &kp I   &kp RET
-   &kp LCTRL &kp Y &kp X &kp G        &kp D &kp M      &kp B     &kp H  &kp SEMI     &kp COMMA &kp DOT &kp ESC
-                         &kp LALT     &mo 1 &kp BSPC   &kp SPACE &mo 2  &kp CAPS
+   &kp ESC &kp Z &kp L &kp W &kp K &kp J &kp Y   &kp U &kp I &kp O &kp P &kp DEL
+   &kp TAB &kp A &kp R &mt LSHIFT S &kp T &kp V   &kp F &kp N &mt LSHIFT E &kp A &kp I &kp RET
+   &kp LCTRL &kp Y &kp X &kp G &kp D &kp M &kp B   &kp H &kp SEMI &kp COMMA &kp DOT &kp ESC
+                         &kp LALT &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp CAPS
                         >;
                 };
                 lower_layer {
@@ -37,10 +35,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp ESC    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PSCRN &kp GRAVE    &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &kt TAB    &kt LCTRL    &kp LEFT     &kp UP       &kp RIGHT &bt BT_CLR   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LCTRL  &trans       &trans       &kp DOWN     &trans    &trans       &trans   &trans   &trans &trans    &trans &trans
-                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &studio_unlock
+   &kp ESC &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PSCRN &kp GRAVE   &kp BSLH &kp QMARK &kp ASTRK &kp DLLR &kp LBKT &kp BSPC
+   &kt TAB &kt LCTRL &kp LEFT &kp UP &kp RIGHT &bt BT_CLR   &kp CARET &kp EXCL &kp AT &kp LPAR &kp RPAR &kp RET
+   &kp LCTRL &kp LX(C) &kp LC(C) &kp DOWN &kp LC(V) &trans   &kp FSLH &kp MINUS &kp AMPS &kp HASH &kp RBKT &kp ESC
+                                 &kp LALT &trans &kp BSPC   &kp SPACE &LSHFT &studio_unlock
                         >;
                 };
 
