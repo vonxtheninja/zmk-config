@@ -16,15 +16,15 @@ keymap {
             &kp ESC   &kp Z &kp L &kp W        &kp K &kp J      &kp Q     &kp P &kp U        &kp O    &kp COMMA &kp DEL
             &kp TAB   &kp A &kp R &mt LSHIFT S &kp T &kp V      &kp F     &kp N &mt LSHIFT E &kp A    &kp I     &kp RET
             &kp LCTRL &kp Y &kp X &kp G        &kp D &kp M      &kp B     &kp H &kp SEMI     &kp APOS &kp DOT   &kp RGUI
-                             &kp LALT         &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp CAPS
+                                  &kp LALT     &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp CAPS
         >;
     };
     lower_layer {
         bindings = <
-            &kp ESC   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PSCRN &kp GRAVE  &kp BSLH  &kp QMARK &kp ASTRK &kp DLLR &kp LBKT  &kp BSPC
-            &kp TAB   &kp LCTRL    &kp LEFT     &kp UP       &kp RIGHT &bt BT_CLR &kp CARET &kp EXCL  &kp AT    &kp LPAR &kp RPAR  &kp RET
-            &kp LCTRL &kp LC(X)    &kp LC(C)    &kp DOWN     &kp LC(V) &trans     &kp FSLH  &kp MINUS &kp AMPS  &kp HASH &kp RBKT  &kp RGUI
-                                   &kp LALT     &trans       &kp BSPC  &kp SPACE  &kp LSHIFT &studio_unlock
+            &kp ESC   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PSCRN   &kp GRAVE  &kp BSLH   &kp QMARK &kp ASTRK &kp DLLR &kp LBKT  &kp BSPC
+            &kp TAB   &kp LCTRL    &kp LEFT     &kp UP       &kp RIGHT   &bt BT_CLR &kp CARET  &kp EXCL  &kp AT    &kp LPAR &kp RPAR  &kp RET
+            &kp LCTRL &kp LC(X)    &kp LC(C)    &kp DOWN     &kp LC(V)   &trans     &kp FSLH   &kp MINUS &kp AMPS  &kp HASH &kp RBKT  &kp RGUI
+                                   &kp LALT     &trans       &kp BSPC    &kp SPACE  &kp LSHIFT &studio_unlock
         >;
     };
     raise_layer {
