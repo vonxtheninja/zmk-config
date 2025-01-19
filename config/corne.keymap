@@ -19,9 +19,10 @@
             bindings = <&kp>, <&kp>;
         };
     };
-keymap {
-    compatible = "zmk,keymap";
-    default_layer {
+
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
         bindings = <
             &kp ESC   &kp Z &kp L &kp W         &kp K &kp J      &kp Q     &kp P &kp U        &kp O    &kp COMMA &kp DEL
             &kp TAB   &kp A &kp R &bhm LSHIFT S &kp T &kp V      &kp F     &kp N & bhm LSHIFT E &kp A    &kp I     &kp RET
