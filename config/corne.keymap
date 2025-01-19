@@ -12,7 +12,7 @@ rpi: require_prior_idle {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
     flavor = "tap-preferred";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <450>;
     quick-tap-ms = <200>;
     require-prior-idle-ms = <125>;
     bindings = <&kp>, <&kp>;
