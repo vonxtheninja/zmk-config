@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 #define TAPPING_TERM_MS 400
 
+/ {
 keymap {
     compatible = "zmk,keymap";
     default_layer {
