@@ -14,11 +14,10 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                    label = "ALRN";
 // -----------------------------------------------------------------------------------------
-// | ESC  |  Z  |  L  |  W  |  K  |  J  |   |  K  |  P   |  U  |  O  |  .  | DEL  |
+// | ESC  |  Z  |  L  |  W  |  K  |  J  |   |  K  |  P   |  U  |  O  |  ,  | DEL  |
 // | TAB  |  A  |  R  |  S  |  T  |  V  |   |  F  |  N   |  E  |  I  |  O  | RET  |
-// | LCTRL|  Y  |  X  |  G  |  D  |  D  |   |  B  |  H   |  ;  |  ,  |  .  | ESC  |
+// | LCTRL|  Y  |  X  |  G  |  D  |  D  |   |  B  |  H   |  ;  |  '  |  .  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp ESC   &kp Z &kp L &kp W        &kp K &kp J      &kp Q     &kp P &kp U        &kp O    &kp COMMA &kp DEL
@@ -28,7 +27,6 @@
                         >;
                 };
                 lower_layer {
-                    label = "NAV+SYM";
 // -----------------------------------------------------------------------------------------
 // | ESC  |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
 // | TAB  | BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -43,7 +41,6 @@
                 };
 
                 raise_layer {
-                    label = "NUM+FUN";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
