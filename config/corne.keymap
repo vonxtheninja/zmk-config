@@ -8,15 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&mt {
-    tapping-term-ms = <450>;
-};
-
-/ {
-    keymap {
-        ...
-    };
-};
+tapping-term-ms = <450>;
 
 / {
         keymap {
