@@ -23,18 +23,18 @@
                 };
                 lower_layer {
                         bindings = <
-   &kp ESC &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PSCRN &kp GRAVE   &kp BSLH &kp QMARK &kp ASTRK &kp DLLR &kp LBKT &kp BSPC
-   &kt TAB &kt LCTRL &kp LEFT &kp UP &kp RIGHT &bt BT_CLR   &kp CARET &kp EXCL &kp AT &kp LPAR &kp RPAR &kp RET
-   &kp LCTRL &kp LX(C) &kp LC(C) &kp DOWN &kp LC(V) &trans   &kp FSLH &kp MINUS &kp AMPS &kp HASH &kp RBKT &kp RGUI
-                                 &kp LALT &trans &kp BSPC   &kp SPACE &LSHFT &studio_unlock
+   &kp ESC   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PSCRN &kp GRAVE    &kp BSLH  &kp QMARK &kp ASTRK &kp DLLR &kp LBKT  &kp BSPC
+   &kt TAB   &kp LCTRL    &kp LEFT     &kp UP       &kp RIGHT &bt BT_CLR   &kp CARET &kp EXCL  &kp AT    &kp LPAR &kp RPAR  &kp RET
+   &kp LCTRL &kp LX(C)    &kp LC(C)    &kp DOWN     &kp LC(V) &trans       &kp FSLH  &kp MINUS &kp AMPS  &kp HASH &kp RBKT  &kp RGUI
+                                       &kp LALT     &trans    &kp BSPC     &kp SPACE &LSHFT    &studio_unlock
                         >;
                 };
                 raise_layer {
                         bindings = <
-   &kp ESC &kp CARET &kp N7 &kp N8 &kp N9 &kp PLUS   &kp INS &kp F7  &kp F8 &kp F9 &kp F12 &kp DEL
-   &kp TAB   &kp N0   &kp N4 &kp N5   &kp N6   &kp EQUAL      &kp HOME &kp F4 &kp F5  &kp F6 &kp F11 &kp RET
-   &kp LCTRL &kp PRCNT   &kp N1 &kp N2   &kp N3   &MINUS      &kp END &kp F1  &kp F2  &kp F3 &kp F10 &kp RGUI
-                             &kp LALT &trans   &kp BSPC   &kp SPACE   &trans    &kp RALT
+   &kp ESC   &kp CARET &kp N7 &kp N8   &kp N9   &kp PLUS    &kp INS   &kp F7 &kp F8 &kp F9 &kp F12 &kp DEL
+   &kp TAB   &kp N0    &kp N4 &kp N5   &kp N6   &kp EQUAL   &kp HOME  &kp F4 &kp F5 &kp F6 &kp F11 &kp RET
+   &kp LCTRL &kp PRCNT &kp N1 &kp N2   &kp N3   &MINUS      &kp END   &kp F1 &kp F2 &kp F3 &kp F10 &kp RGUI
+                              &kp LALT &trans   &kp BSPC    &kp SPACE &trans &kp RALT
                         >;
                 };
 };
