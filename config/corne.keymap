@@ -13,7 +13,6 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-   tapping-term-ms = <450>;
 // -----------------------------------------------------------------------------------------
 // | ESC  |  Z  |  L  |  W  |  K  |  J  |   |  K  |  P   |  U  |  O  |  .  | DEL  |
 // | TAB  |  A  |  R  |  S  |  T  |  V  |   |  F  |  N   |  E  |  I  |  O  |  RET |
