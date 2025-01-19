@@ -24,7 +24,7 @@ keymap {
             &kp ESC   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PSCRN &kp GRAVE  &kp BSLH  &kp QMARK &kp ASTRK &kp DLLR &kp LBKT  &kp BSPC
             &kp TAB   &kp LCTRL    &kp LEFT     &kp UP       &kp RIGHT &bt BT_CLR &kp CARET &kp EXCL  &kp AT    &kp LPAR &kp RPAR  &kp RET
             &kp LCTRL &kp LC(X)    &kp LC(C)    &kp DOWN     &kp LC(V) &trans     &kp FSLH  &kp MINUS &kp AMPS  &kp HASH &kp RBKT  &kp RGUI
-                                   &kp LALT     &trans       &kp BSPC  &kp SPACE  &kp LSHIFT &kp CAPS
+                                   &kp LALT     &trans       &kp BSPC  &kp SPACE  &kp LSHIFT &studio_unlock
         >;
     };
     raise_layer {
