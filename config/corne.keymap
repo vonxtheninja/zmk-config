@@ -19,11 +19,13 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+       soff: soft_off {
+            compatible = "zmk,behavior-soft-off";
+            #binding-cells = <0>;
+            // split-peripheral-off-on-press;
+            hold-time-ms = <2000>; // Only turn off it the key is held for 2 seconds or longer.
+        };
     };
-
-       &soft_off {
-    hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
-};
 
     keymap {
         compatible = "zmk,keymap";
