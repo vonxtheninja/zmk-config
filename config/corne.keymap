@@ -21,6 +21,16 @@
         };
     };
 
+       &soft_off {
+    hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
+};
+
+/ {
+    keymap {
+        ...
+    };
+};
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
